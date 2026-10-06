@@ -17,5 +17,4 @@ flowchart TD
     
     genap --> stop(((stop)))
     ganjil --> stop
-    
 ```
