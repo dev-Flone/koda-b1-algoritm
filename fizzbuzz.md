@@ -1,7 +1,7 @@
 # Flowchart
 ``` mermaid
 flowchart TD
-    start((Sstart))
+    start((Start))
     init[/n <- 1 /]
     check{n <= 10}
     check2{n % 2 = 0}
