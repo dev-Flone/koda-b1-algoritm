@@ -34,7 +34,7 @@ DECLARE r : REAL
 DECLARE L : REAL
 DECLARE K : REAL
 
-IF r % 7 == 0 THEN
+IF r % 7 = 0 THEN
     phi <- 22/7
 ELSE
     phi <- 3.14
