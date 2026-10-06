@@ -35,8 +35,8 @@ DECLARE L : REAL
 DECLARE K : REAL
 
 phi <- 3.14
-INPUT r
 OUTPUT "Masukkan nilai r: "
+INPUT r
 L <- phi * r * r
 K <- 2 * phi * r
 
