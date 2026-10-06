@@ -19,3 +19,16 @@ flowchart TD
     ganjil --> stop
     
 ```
+
+## Pseudo-Code
+``` pseudo-code
+DECLARE Num : INTEGER
+
+FOR Num <- 0 TO 100 STEP 1
+    IF Num % 2 = 0 THEN
+        OUTPUT Num, "adalah Bilangan Genap"
+    ELSE
+        OUTPUT Num, "adalah Bilangan Ganjil"
+    ENDIF
+NEXT Num
+```
