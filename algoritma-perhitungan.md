@@ -34,3 +34,10 @@ C <- 0
 Hasil <- A * B + C
 OUTPUT "Hasil perhitungan adalah", Hasil
 ```
+
+``` pseudo-code
+FUNCTION aritmatika(A: INTEGER, B: INTEGER, C: INTEGER) RETURNS INTEGER
+    A * B + C
+ENDFUNCTION
+OUTPUT "Hasil perhitungan: ", aritmatika(1,1,0)
+```
