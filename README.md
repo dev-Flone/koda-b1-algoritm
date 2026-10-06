@@ -14,3 +14,10 @@
 8. Mie siap disajikan
 9. Selesai
 ```
+
+## Algoritma Flowchart
+``` mermaid
+flowchart LR
+    start --> stop
+
+```

@@ -11,8 +11,10 @@
 ## Flowchart Ganjil Genap
 ``` mermaid
 flowchart TD
-    start((start)) --> angka[/Angka/]--> modulus[Modulus 2] --> Decision{Sisa Bagi = 0} --> Yes --> genap[genap]
+    start((start)) --> angka[/Angka/]--> modulus[Modulus 2] --> Decision{Sisa Bagi = 0} --> Yes@{shape: rect} --> genap[genap]
+    
     Decision --> No --> ganjil[ganjil]
+    
     genap --> stop(((stop)))
     ganjil --> stop
     
