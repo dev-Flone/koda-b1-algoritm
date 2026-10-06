@@ -34,6 +34,9 @@ DECLARE r : REAL
 DECLARE L : REAL
 DECLARE K : REAL
 
+OUTPUT "Masukkan Nilai r: "
+INPUT r
+
 IF r % 7 = 0 THEN
     phi <- 22/7
 ELSE
