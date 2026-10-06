@@ -10,12 +10,12 @@ flowchart TD
     finish(((Finish)))
 
     start --> init --> check
+    check -- NO --> finish
     check -- YES --> check2
     check2 -- YES --> output
     check2 -- NO --> n[/n/]
     output --> increment --> check
     n --> increment
-    check -- NO --> finish
 ```
 
 # Pseudo-Code
