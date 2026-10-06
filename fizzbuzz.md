@@ -3,8 +3,8 @@
 flowchart TD
     start((Sstart))
     init[/n <- 0 /]
-    check[n <= 10]
-    check2[n % 2 = 0]
+    check{n <= 10}
+    check2{n % 2 = 0}
     increment[n++]
     output[/FizzBuzz/]
     finish(((Finish)))
