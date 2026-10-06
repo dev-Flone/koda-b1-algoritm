@@ -15,7 +15,7 @@ flowchart TD
     A[/Input A/]
     B[/Input B/]
     C[/Input C/]
-    Hasil[A * B + C]
+    Hasil[A x B + C]
     Output[Tampilkan Hasil]
     stop(((stop)))
 
@@ -28,9 +28,9 @@ DECLARE B : INTEGER
 DECLARE C : INTEGER
 DECLARE Hasil : INTEGER
 
-INPUT A
-INPUT B
-INPUT C
+A <- 1
+B <- 1
+C <- 0
 Hasil <- A * B + C
 OUTPUT "Hasil perhitungan adalah", Hasil
 ```
