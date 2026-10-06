@@ -2,7 +2,7 @@
 ``` mermaid
 flowchart TD
     start((Sstart))
-    init[/n <- 0 /]
+    init[/n <- 1 /]
     check{n <= 10}
     check2{n % 2 = 0}
     increment[n++]
@@ -22,7 +22,7 @@ flowchart TD
 ``` pseudo-code
 DECLARE n : INTEGER
 
-FOR n <- 0 TO 10 STEP 1
+FOR n <- 1 TO 10 STEP 1
     IF n % 2 = 0 THEN
         OUTPUT "FIZZBUZZ"
     ELSE
