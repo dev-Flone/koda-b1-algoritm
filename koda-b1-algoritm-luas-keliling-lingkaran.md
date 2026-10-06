@@ -47,7 +47,7 @@ ELSE
     phi <- 3.14
 ENDIF
 
-IF lork == 1 THEN
+IF lork = 1 THEN
     OUTPUT "Luas Lingkaran = ", L
 ELSE
     OUTPUT "Keliling Lingkaran = ", K
