@@ -1,0 +1,36 @@
+## Deskriptif
+```
+1. Mulai
+2. Masukkan variabel A
+3. Masukkan variabel B
+4. Masukkan variabel C
+4. Hitung hasil dari A x B + C
+5. Tampilkan Hasil
+6. Selesai
+```
+## Flowchart
+``` mermaid
+flowchart TD
+    start((start))
+    A[/Input A/]
+    B[/Input B/]
+    C[/Input C/]
+    Hasil[A * B + C]
+    Output[Tampilkan Hasil]
+    stop(((stop)))
+
+    start --> A --> B --> C --> Hasil --> Output --> stop
+```
+## Pseudo-Code
+``` pesudo-code
+DECLARE A : INTEGER
+DECLARE B : INTEGER
+DECLARE C : INTEGER
+DECLARE Hasil : INTEGER
+
+INPUT A
+INPUT B
+INPUT C
+Hasil <- A * B + C
+OUTPUT "Hasil perhitungan adalah", Hasil
+```
