@@ -33,6 +33,10 @@ DECLARE phi : REAL
 DECLARE r : REAL
 DECLARE L : REAL
 DECLARE K : REAL
+DECLARE lork : INTEGER
+
+L <- phi * r * r
+K <- 2 * phi * r
 
 OUTPUT "Masukkan Nilai r: "
 INPUT r
@@ -43,8 +47,9 @@ ELSE
     phi <- 3.14
 ENDIF
 
-L <- phi * r * r
-K <- 2 * phi * r
-
-OUTPUT "Luas lingkaran: ", L, ".", " Keliling lingkaran: ", K
+IF lork == 1 THEN
+    OUTPUT "Luas Lingkaran = ", L
+ELSE
+    OUTPUT "Keliling Lingkaran = ", K
+ENDIF
 ```
