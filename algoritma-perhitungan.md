@@ -12,9 +12,9 @@
 ``` mermaid
 flowchart TD
     start((start))
-    A[/Input A/]
-    B[/Input B/]
-    C[/Input C/]
+    A[/A = 1/]
+    B[/B = 1/]
+    C[/C = 0/]
     Hasil[A x B + C]
     Output[Tampilkan Hasil]
     stop(((stop)))
