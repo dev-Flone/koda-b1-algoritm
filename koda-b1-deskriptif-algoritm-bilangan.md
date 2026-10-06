@@ -17,4 +17,22 @@ flowchart TD
     
     genap --> stop(((stop)))
     ganjil --> stop
+<<<<<<< HEAD
 ```
+=======
+    
+```
+
+## Pseudo-Code
+``` pseudo-code
+DECLARE Num : INTEGER
+
+FOR Num <- 0 TO 100 STEP 1
+    IF Num % 2 = 0 THEN
+        OUTPUT Num, "adalah Bilangan Genap"
+    ELSE
+        OUTPUT Num, "adalah Bilangan Ganjil"
+    ENDIF
+NEXT Num
+```
+>>>>>>> 09c4571d417e38a7adc97167a8df27d24bcbfdc3

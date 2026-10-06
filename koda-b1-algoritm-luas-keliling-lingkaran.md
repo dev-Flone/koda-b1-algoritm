@@ -26,3 +26,30 @@ flowchart TD
     keliling --> stop
 
 ```
+
+## Pseudo-Code
+``` pseudo-code
+DECLARE phi : REAL
+DECLARE r : REAL
+DECLARE L : REAL
+DECLARE K : REAL
+DECLARE lork : INTEGER
+
+L <- phi * r * r
+K <- 2 * phi * r
+
+OUTPUT "Masukkan Nilai r: "
+INPUT r
+
+IF r % 7 = 0 THEN
+    phi <- 22/7
+ELSE
+    phi <- 3.14
+ENDIF
+
+IF lork = 1 THEN
+    OUTPUT "Luas Lingkaran = ", L
+ELSE
+    OUTPUT "Keliling Lingkaran = ", K
+ENDIF
+```
