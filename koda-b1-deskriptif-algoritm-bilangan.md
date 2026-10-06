@@ -7,3 +7,13 @@
 4. Sebaliknya, jika tidak menghasilkan sisa berarti genap
 5. Selesai
 ```
+
+## Flowchart Ganjil Genap
+``` mermaid
+flowchart TD
+    start((start)) --> angka[/Angka/]--> id1[Dibagi 2] --> Decision{Sisa Bagi = 0} --> Yes[Genap]
+    Decision --> No[Ganjil]
+    Yes --> stop(((stop)))
+    No --> stop
+    
+```
