@@ -34,11 +34,14 @@ DECLARE r : REAL
 DECLARE L : REAL
 DECLARE K : REAL
 
-phi <- 3.14
-OUTPUT "Masukkan nilai r: "
-INPUT r
+IF r % 7 == 0 THEN
+    phi <- 22/7
+ELSE
+    phi <- 3.14
+ENDIF
+
 L <- phi * r * r
 K <- 2 * phi * r
 
-OUTPUT "Luas Lingkarang adalah ", L, " dan Keliling Lingkaran adalah", K
+OUTPUT "Luas lingkaran: ", L, ".", " Keliling lingkaran: ", K
 ```
