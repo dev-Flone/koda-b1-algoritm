@@ -3,19 +3,12 @@
 ## Keliling Lingkaran
 ```
 1. Mulai
-2. Gunakan 22/7 jika habis dibagi 7
-3. Jika tidak, gunakan 3.14
-4. 2 dikalikan phi, lalu dikalikan dengan jari-jari
-5. Selesai
-```
-
-## Luas Lingkarang
-```
-1. Mulai
-2. Gunakan 22/7 jika habis dibagi 7
-3. Jika tidak, gunakan 3.14
-4. phi dikalikan dengan jari-jari kuadrat
-5. Selesai
+2. Tentukan nilai jari-jari
+3. Gunakan phi = 22/7 jika jari-jari habis dibagi 7
+4. Gunakan 3.14 jika tidak
+5. Tentukan ingin menghitung Luas atau Keliling
+6. Rumus Luas, L = phi x r x r || Rumus Keliling, K = 2 x phi x r
+7. Selesai
 ```
 
 ## Flowchart
