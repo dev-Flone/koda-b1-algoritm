@@ -20,6 +20,8 @@ flowchart TD
 
 # Pseudo-Code
 ``` pseudo-code
+DECLARE n : INTEGER
+
 FOR n <- 0 TO 10 STEP 1
     IF n % 2 = 0 THEN
         OUTPUT "FIZZBUZZ"
